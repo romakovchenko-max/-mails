@@ -8,8 +8,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 # --- КОНФИГУРАЦИЯ ---
 TOKEN = "8509142665:AAEiycyacUVbhq6-iZ1moMcv8lVKm4jQN6o"
-MAX_THREADS = 15  # Оптимально для Termux и защиты от банов
-TIMEOUT = 7       # Секунд на один аккаунт
+MAX_THREADS = 50  # Оптимально для Termux и защиты от банов
+TIMEOUT = 15       # Секунд на один аккаунт
 
 bot = telebot.TeleBot(TOKEN)
 
