@@ -1,2 +1,6 @@
-pyTelegramBotAPI
-aioimaplib
+aiogram==3.3.0
+aiosmtplib==3.0.1
+aiohttp==3.9.1
+aiofiles==23.2.1
+pandas==2.1.4
+openpyxl==3.1.2
